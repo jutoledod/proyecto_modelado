@@ -1,0 +1,55 @@
+# Modelos entrenados (se regeneran con run_pipeline_fixed.py)
+models/trained_models/*.pkl
+
+# Datos procesados (se generan automáticamente)
+data/processed/
+data/02_intermediate/
+data/03_primary/
+data/04_feature/
+data/05_model_input/
+data/06_models/
+data/07_model_output/
+data/08_reporting/
+
+# Resultados generados por el pipeline
+results/metrics/
+results/plots/
+results/reports/
+
+# Cache y archivos de sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs temporales
+*.log
+pipeline_output.txt
+pipeline_run.txt
+
+# Notebooks con outputs ejecutados (opcional, mantener solo código)
+# notebooks/.ipynb_checkpoints/
+
+# Archivos temporales
+.tmp/
+.temp/

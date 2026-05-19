@@ -1,2 +1,0 @@
-Pipeline completed.
-Best model: RandomForest
