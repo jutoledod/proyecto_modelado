@@ -1,0 +1,18 @@
+﻿RESULTS SUMMARY
+===============
+Best Performing Model: Random Forest
+Cross-Validation Scores:
+- LogisticRegression: 0.2228
+- DecisionTree: 0.4987
+- RandomForest: 0.5074
+- SVM: 0.1984
+- KNN: 0.2472
+- GradientBoosting: 0.4987
+
+Hyperparameter Optimization:
+- Optimization applied to Random Forest improved stability and generalisation.
+- Best Model saved as 'Best_RandomForest.pkl'.
+
+Key Insights:
+- Random Forest and Gradient Boosting showed significantly better performance than linear models for this dataset.
+- PCA analysis helped in visualizing high-dimensional clusters.
